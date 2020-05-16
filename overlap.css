@@ -1,0 +1,185 @@
+h1, h3 {
+  color: #000000;
+}
+
+figcaption {
+  font-size: 300px;
+  line-height: 1;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+figcaption.again {
+  font-size: 13px;
+  font-family: Helvetica;
+  padding: 0px;
+}
+
+.uk-navbar {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black;
+}
+
+video {
+  padding: 40px;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 15px;
+  line-height: 1.3;
+  margin: 80px 15px 40px 15px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card-body {
+  margin: 80px 15px 40px 45px;
+  font-family: Helvetica;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+header {
+  padding: 35px;
+}
+
+a {
+  text-decoration: ;
+}
+
+blockquote {
+  font-size: 50px;
+  margin: 0;
+  page-break-after: always;
+}
+
+p {
+  text-align: justify;
+  max-width: 32em;
+  font-size: 15px;
+}
+
+.paragraph {
+  text-align: justify;
+  max-width: 50em;
+  margin: 3em;
+  font-size: 15px;
+}
+
+content {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  padding: 40px;
+  /* what allows for the overlap effect: */
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+section div {
+  /* division for text and image/video */
+  width: 50%;
+}
+
+section.about {
+  background-color: #ffffff;
+  text-align: justify;
+  max-width: 100%;
+}
+
+section.about p {
+  max-width: 30em;
+}
+
+section.photo1 {
+  background-color: #ffffff;
+  position: relative;
+}
+
+section.photo2 {
+  background-color: #ffffff;
+  position: relative;
+}
+
+section.photo3 {
+  background-color: #ffffff;
+  position: relative;
+}
+
+section.photo33 {
+  background-color: #ffffff;
+}
+
+section.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.filterz {
+  max-width: 2000px;
+  padding: 0;
+}
+
+section.photo img {
+  max-width: 650px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("fillers.jpg");
+  /* Set a specific height */
+  min-height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_2 {
+  background-image: url("filta.jpg");
+  min-height: 600px;
+  min-width: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 80px auto 40px auto;
+  width: 1120px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+/* media */
+@media (max-width: 1248px) {
+  body {
+    width: auto;
+    margin: 80px 64px 40px 64px;
+  }
+
+  p, div.paragraph {
+    font-size: 12px;
+  }
+
+  figcaption {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    width: auto;
+    font-size: 16px;
+  }
+}
